@@ -5,4 +5,4 @@
 ## Используются технологии
 - HTML
 - CSS
-- Bootstrap
+- Bootstrap vs5
