@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,16 @@
 	<link rel="stylesheet" href="./css/null.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<header class="header">
+	<header class="header pb-5">
 		<div class="container">
 			<div class="row align-items-center py-3">
 				<div class="col-2">
 					<a href="/" class="header__logo">
-					<img src="./img/logo.svg" alt="logo"></a>
+						<img src="./img/logo.svg" alt="logo"></a>
 				</div>
 				<div class="col d-flex align-items-center justify-content-center ">
 					<nav>
@@ -33,8 +35,90 @@
 					<a href="" class="header__primary btn">Регистрация</a>
 				</div>
 			</div>
+			<div class="row pt-5">
+				<div class="col-5">
+					<h1 class="hero__title">Найдите удаленную работу вашей мечты</h1>
+					<p class="hero__text">Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с мировым именем и
+						работайте <br> по свободному графику</p>
+					<div class="imput-group d-flex">
+
+						<input type="text" class="input" placeholder="Начните поиск"></input>
+						<button class="button btn">
+							<img src="./img/search.svg" alt="icon:search">
+							<span class="button__text">Искать вакансии</span>
+						</button>
+					</div>
+					<div class="tags-group">
+						<span class="tags-lable">Например:</span>
+						<a href="#" class="tag">Front-end</a>
+						<a href="#" class="tag">Back-end</a>
+						<a href="#" class="tag">Designer</a>
+					</div>
+				</div>
+				<div class="col-6 offset-1">
+					<img src="./img/hero-image.svg" alt="hero-image" class="hero__image">
+				</div>
+			</div>
 		</div>
 		<!-- /.contaient -->
 	</header>
+	<section class="section">
+		<div class="container">
+			<h2 class="section__title">Категории</h2>
+			<div class="row">
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#1"></use>
+						</svg>
+						<span class="card__text">Дизайн</span>
+					</a>
+				</div>
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#2"></use>
+						</svg>
+						<span class="card__text">Разработка</span>
+					</a>
+				</div>
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#3"></use>
+						</svg>
+						<span class="card__text">Копирайтинг</span>
+					</a>
+				</div>
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#4"></use>
+						</svg>
+						<span class="card__text">Безопасность</span>
+					</a>
+				</div>
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#5"></use>
+						</svg>
+						<span class="card__text">Видео</span>
+					</a>
+				</div>
+				<div class="col-2">
+					<a href="#" class="card d-flex flex-column align-items-center p-5">
+						<svg class="card__icon" height="24">
+							<use href="./img/icons.svg#6"></use>
+						</svg>
+						<span class="card__text">Образование</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
 </body>
+
 </html>
