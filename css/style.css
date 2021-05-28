@@ -36,7 +36,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.imput-group {
+.input-group {
 	flex-wrap: wrap;
 	background: #ffffff;
 	border: 1px solid rgba(209, 209, 209, 0.1);
@@ -71,6 +71,7 @@ body {
 }
 
 .tags-lable {
+	display: inline-block;
 	margin-right: 15px;
 }
 
@@ -78,6 +79,7 @@ body {
 	color: #b2b2b2;
 	margin-left: 15px;
 }
+
 .tags-group a:not(:last-child) {
 	margin-right: 10px;
 	margin-top: 15px;
@@ -114,4 +116,95 @@ body {
 }
 .card:hover .card__icon {
 	fill: #ffffff;
+}
+.offer {
+	border: 1px solid #b2b2b2;
+	border-radius: 5px;
+	padding: 30px;
+}
+.offer:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.offer__image {
+	height: 100px;
+	width: 100px;
+	border: 1px solid #f2f3f6;
+	border-radius: 50%;
+	background: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-right: 20px;
+}
+.offer__title {
+	margin-right: 46px;
+}
+.offer__heading {
+	font-weight: bold;
+}
+.offer__place {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.offer__salary {
+	font-weight: bold;
+	margin-right: 62px;
+}
+.offer__more {
+	font-size: 14px;
+	color: #458fec;
+	margin-left: auto;
+	margin-right: 25px;
+}
+.subscribe {
+	background-color: #f2f3f6;
+	text-align: center;
+}
+.subscribe__form {
+	max-width: 469px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 90px 0;
+}
+.subscribe__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 20px;
+}
+
+.subscribe__subtitle {
+	font-size: 18px;
+	margin-bottom: 40px;
+	line-height: 140%;
+}
+
+.footer {
+	padding: 70px 0 100px 0;
+	text-align: left;
+}
+.footer__logo {
+	margin-bottom: 20px;
+}
+
+.footer__copyriting,
+.footer__description {
+	font-size: 12px;
+	line-height: 140%;
+	color: #b2b2b2;
+}
+.footer__title {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+.footer__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer__link {
+	font-size: 16px;
+	line-height: 19px;
 }

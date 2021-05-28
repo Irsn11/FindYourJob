@@ -40,16 +40,18 @@
 					<h1 class="hero__title">Найдите удаленную работу вашей мечты</h1>
 					<p class="hero__text">Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с мировым именем и
 						работайте <br> по свободному графику</p>
-					<div class="imput-group d-flex">
+					<form action="#">
+						<div class="input-group d-flex">
+							<input type="text" class="input" placeholder="Начните поиск"></input>
+							<button class="button btn">
+								<img src="./img/search.svg" alt="icon:search">
+								<span class="button__text">Искать вакансии</span>
+							</button>
+						</div>
+					</form>
 
-						<input type="text" class="input" placeholder="Начните поиск"></input>
-						<button class="button btn">
-							<img src="./img/search.svg" alt="icon:search">
-							<span class="button__text">Искать вакансии</span>
-						</button>
-					</div>
 					<div class="tags-group">
-						<span class="tags-lable">Например:</span>
+						<h4 class="tags-lable">Например:</h4>
 						<a href="#" class="tag">Front-end</a>
 						<a href="#" class="tag">Back-end</a>
 						<a href="#" class="tag">Designer</a>
@@ -119,6 +121,135 @@
 
 
 	</section>
+	<section class="section offers">
+		<div class="container">
+			<h1 class="section__title">Свежие вакансии</h1>
+			<div class="offer d-flex align-items-center ">
+				<div class="offer__image" style="background-image:url('./img/offers/logo-offer.png')" alt="logo:Технопарк">
+				</div>
+				<div class="offer__title">
+					<div class="offer__heading">Front-end разработчик</div>
+					<span class="offer__place">Технопарк, Казань</span>
+				</div>
+				<span class="offer__salary btn">65 000 ₽</span>
+				<div class="tags-group">
+					<h4 class="tags-lable">Требования:</h4>
+					<a href="#" class="tag">React</a>
+					<a href="#" class="tag">Sass</a>
+					<a href="#" class="tag">Figma</a>
+				</div>
+				<a href="" class="offer__more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center ">
+				<div class="offer__image" style="background-image:url('./img/offers/logo-offer.png')" alt="logo:Технопарк">
+				</div>
+				<div class="offer__title">
+					<div class="offer__heading">Front-end разработчик</div>
+					<span class="offer__place">Технопарк, Казань</span>
+				</div>
+				<span class="offer__salary btn">65 000 ₽</span>
+				<div class="tags-group">
+					<h4 class="tags-lable">Требования:</h4>
+					<a href="#" class="tag">React</a>
+					<a href="#" class="tag">Sass</a>
+					<a href="#" class="tag">Figma</a>
+				</div>
+				<a href="" class="offer__more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center ">
+				<div class="offer__image" style="background-image:url('./img/offers/logo-offer.png')" alt="logo:Технопарк">
+				</div>
+				<div class="offer__title">
+					<div class="offer__heading">Front-end разработчик</div>
+					<span class="offer__place">Технопарк, Казань</span>
+				</div>
+				<span class="offer__salary btn">65 000 ₽</span>
+				<div class="tags-group">
+					<h4 class="tags-lable">Требования:</h4>
+					<a href="#" class="tag">React</a>
+					<a href="#" class="tag">Sass</a>
+					<a href="#" class="tag">Figma</a>
+				</div>
+				<a href="" class="offer__more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center ">
+				<div class="offer__image" style="background-image:url('./img/offers/logo-offer.png')" alt="logo:Технопарк">
+				</div>
+				<div class="offer__title">
+					<div class="offer__heading">Front-end разработчик</div>
+					<span class="offer__place">Технопарк, Казань</span>
+				</div>
+				<span class="offer__salary btn">65 000 ₽</span>
+				<div class="tags-group">
+					<h4 class="tags-lable">Требования:</h4>
+					<a href="#" class="tag">React</a>
+					<a href="#" class="tag">Sass</a>
+					<a href="#" class="tag">Figma</a>
+				</div>
+				<a href="" class="offer__more">Подробнее →</a>
+			</div>
+		</div>
+	</section>
+	<section class="subscribe">
+		<div class="container">
+			<form action="" class="subscribe__form">
+				<h2 class="subscribe__title">Подпишитесь на рассылку с новыми вакансиями</h2>
+				<p class="subscribe__subtitle">Мы отправляем по одному письму в&nbsp;неделю с&nbsp;подходящими вам вакансиями
+				</p>
+				<div class="input-group d-flex">
+					<input type="text" class="input" placeholder="E-mail"></input>
+					<button class="button btn">
+						<img src="./img/subscribe.svg" alt="icon:search">
+						<span class="button__text">Подписаться</span>
+					</button>
+				</div>
+			</form>
+			<footer class="footer">
+				<div class="conainer">
+					<div class="row ">
+						<div class="col-3">
+							<img src="./img/logo.svg" alt="" class="footer__logo">
+							<p class="footer__description">
+								Сайт с вакансиями для тех, кто&nbsp;ищет&nbsp;удаленную&nbsp;работу
+							</p>
+							<span class="footer__copyriting">© 2021</span>
+						</div>
+						<div class="col-3">
+							<h3 class="footer__title">Свяжитесь с нами</h3>
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="tel:+78002020300">8 800 20 20 300</a></li>
+								<li class="footer__item">
+									<a class="footer__link" href="mailto:info@findyourjob.net">
+										info@findyourjob.net
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-3">
+							<h3 class="footer__title">Информация</h3>
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Обработка данных</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Конфиденциальность</a> </li>
+								<li class="footer__item"><a class="footer__link" href="#">Публичная оферта</a> </li>
+							</ul>
+						</div>
+						<div class="col-3">
+							<h3 class="footer__title">Навигация по сайту</h3>
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Вакансии</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Компании</a> </li>
+								<li class="footer__item"><a class="footer__link" href="#">Контакты</a> </li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+		</div>
+		</footer>
+		</div>
+
+	</section>
+
 </body>
 
 </html>
